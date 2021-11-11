@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+    <!--  CABEÇA - CONFIGURAÇÕES -->
+    <head>
+        <meta charset="UTF-8">
+        <title>Projeto Ifood</title>
+
+        <!-- RESET CSS -->
+        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+
+         <!-- FONTES -->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+ 
+
+        <!-- STYLE -->
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+
+    <!-- CORPO - CONTEÚDO -->
+    <body>
+        <header class="cabecalho">
+
+         <div class="container">  
+            <div class="cabecalho_logoIfood">
+                <figure>
+                     <img src="./assets/img/logo.png" alt="Logo Ifood">
+                     <figcaption>Logo Ifood</figcaption>
+                </figure>  
+            </div>
+
+            <div class="cabecalho_restaurante">
+                <div class="cabecalho_fundoImagem">
+                    <img src="./assets/img/restaurante.png" alt="Restaurante">
+                </div>
+                <h2>Restaurante</h2>
+            </div>
+
+         </div> 
+        </header>
+
+        <main>
+
+            <!-- SEÇÃO INFORMAÇÕES DO RESTAURANTE -->
+            <section class="secaoInfoRestaurante">
+
+                <div class="container">
+                 <!-- INFORMAÇÕES DO RESTAURANTE -->    
+                    <div class="secaoInfoRestaurante_descricao">
+                        <figure class="secaoInfoRestaurante_logoRestaurante">
+                            <img src="./assets/img/logo-kenzie.png" alt="Kenzie Foods">
+                            <figcaption>Restaurante Kezie Foods</figcaption>
+                        </figure>
+                        <h1 class="secaoInfoRestaurante_nomeRestaurante">Kenzie Foods</h1>
+                    </div>
+
+                    <!-- CAIXA DE BUSCA -->
+                    <div class="secaoInfoRestaurante_pesquisar">
+                        <button>
+                            <img src="./assets/img/lupa.png" alt="">
+                        </button>
+                        <input type="text" placeholder="Buscar no cardápio">
+                    </div> 
+                </div>
+
+            </section>
+
+            <!-- SEÇÃO PRATOS EM DESTAQUES -->
+            <section class="secaoPratosDestaque">
+                <div class="container">
+                    <h2 class="secaoPratosDestaque_titulo">Destaque</h2>
+
+                <!-- LISTA DE PRATOS EM DESTAQUE -->    
+                    <ul class="secaoPratosDestaque_listaPratos">
+                        <li class="secaoPratosDestaque_itemPrato">
+                            <a href="">
+                                <figure class="secaoPratosDestaque_imagemPrato">
+                                    <img src="./assets/img/produto.png" alt="Combo hamburguer + batata frita 1">
+                                    <figcaption>Combo hamburguer + batata frita 1</figcaption>
+                                </figure>
+                                <h3 class="secaoPratosDestaque_nomePrato">Combo hamburguer + batata frita 1</h3>
+                                <span class="secaoPratosDestaque_precoPrato">R$ 21,90</span>
+                            </a>
+                        </li>
+                        <li class="secaoPratosDestaque_itemPrato">
+                            <a href="">
+                                <figure class="secaoPratosDestaque_imagemPrato">
+                                    <img src="./assets/img/produto.png" alt="Combo hamburguer + batata frita 2">
+                                    <figcaption>Combo hamburguer + batata frita 2</figcaption>
+                                </figure>
+                                <h3 class="secaoPratosDestaque_nomePrato">Combo hamburguer + batata frita 2</h3>
+                                <span class="secaoPratosDestaque_precoPrato">R$ 21,90</span>
+                            </a>
+                        </li>
+                        <li class="secaoPratosDestaque_itemPrato">
+                            <a href="">
+                                <figure class="secaoPratosDestaque_imagemPrato">
+                                    <img src="./assets/img/produto.png" alt="Combo hamburguer + batata frita 3">
+                                    <figcaption>Combo hamburguer + batata frita 3</figcaption>
+                                </figure>
+                                <h3 class="secaoPratosDestaque_nomePrato">Combo hamburguer + batata frita 3</h3>
+                                <span class="secaoPratosDestaque_precoPrato">R$ 21,90</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <div class="conteudoPrincipal">
+            <div class="container">
+            <section class="secaoSobremesas">
+                    <h2 class="secaoSobremesas_titulo">Sobremesas </h2>
+                    <ul class="secaoSobremesas_listaSobremesa">
+                        <li class="secaoSobremesas_itemSobremesa">
+                            <a href="">
+                                <div class="secaoSobremesas_descricaoSobremesa">
+                                    <h3>Brownie de chocolate 1</h3>
+                                    <p>O clássico brownie para quem ama um docinho de sobremesa.</p>
+                                    <span>R$ 5,50</span>
+                                </div>
+                                <figure class="secaoSobremesas_imagemSobremesa">
+                                    <img src="./assets/img/sobremesa.png" alt="Brownie de chocolate 1">
+                                    <figcaption>Brownie de chocolate </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="secaoSobremesas_itemSobremesa">
+                            <a href="">
+                                <div class="secaoSobremesas_descricaoSobremesa">
+                                    <h3>Milkshake de leite ninho 300ml</h3>
+                                    <p>Combinação perfeita de sorvete de Baunilha, deliciosa, mescla o morango com leite ninho.</p>
+                                    <span>R$ 18,00</span>
+                                </div>
+                                <figure class="secaoSobremesas_imagemSobremesa">
+                                    <img src="./assets/img/milkshake.png" alt="Milkshake de leite ninho 300ml">
+                                    <figcaption>Milkshake de leite ninho 300ml</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="secaoSobremesas_itemSobremesa">
+                            <a href="">
+                                <div class="secaoSobremesas_descricaoSobremesa">
+                                    <h3>Açai Bowl</h3>
+                                    <p>O clássico açai, natural ou frozen, além de ser deliciosa, está na moda e faz muite bem pra saúde.</p>
+                                    <span>R$ 18,00</span>
+                                </div>
+                                <figure class="secaoSobremesas_imagemSobremesa">
+                                    <img src="./assets/img/acai.png" alt="Açai Bowl">
+                                    <figcaption>Açai Bowl</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
+            </section>
+            <section class="secaoCarrinho">
+                    <h2 class="secaoCarrinho_titulo">Carrinho</h2>
+
+                <div class="secaoCarrinho_conteudo">    
+                    <div class="secaoCarrinho_listaItens">
+                    <ul >
+                        <li class="secaoCarrinho_item">
+                             <div class="secaoCarrinho_itemDescricao">
+                                    <h3>Porção anion rings</h3>
+                                    <span>R$ 5,50</span>
+                             </div>
+                            <button class="secaoCarrinho_botaoRemover">Remover</button>
+                        </li>
+                        <li class="secaoCarrinho_item">
+                            <div class="secaoCarrinho_itemDescricao">
+                                <h3>Milkshake de leite ninho 300ml</h3>
+                                <span>R$ 18,00</span>
+                            </div>
+                            <button class="secaoCarrinho_botaoRemover">Remover</button>
+                        </li>
+                        <li class="secaoCarrinho_item">
+                            <div class="secaoCarrinho_itemDescricao">
+                                <h3>Açai Bowl</h3>
+                                <span>R$ 18,00</span>
+                            </div>
+                            <button class="secaoCarrinho_botaoRemover">Remover</button>
+                        </li>
+                    </ul>
+                    <div class="secaoCarrinho_total">
+                        <p>Total</p>
+                        <span>R$ 41,50</span>
+                    </div>
+
+                    <div class="secaoCarrinho_formaPagamento">
+                        <button>Escolher a forma de pagamento</button>
+                    </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        </main>
+    </body>
+
+</html>
